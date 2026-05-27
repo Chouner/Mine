@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>田慧慧 | AI 产品化 · 领域知识约束 AI</title>
+<meta name="description" content="田慧慧：AI 产品经理。声呐 + 信标两条产品线，核电 + 声学 4 年跨领域经验。" />
+<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+<header class="site-header" data-elevated="false">
+  <a class="brand" href="#top"><span class="brand-mark">田</span><span>田慧慧</span></a>
+  <nav class="nav-links">
+    <a href="#methodology">方法</a>
+    <a href="#products">产品线</a>
+    <a href="#journey">成长</a>
+    <a href="#projects">项目</a>
+    <a href="#reflections">反思</a>
+    <a href="#resume">简历</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero">
+  <div class="hero-grid" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="hero-content">
+    <p class="eyebrow">Domain-Constrained AI · Product Methodology · Sonar &amp; Beacon</p>
+    <h1>把领域专家知识<br>转化为可验证的 AI 系统</h1>
+    <p class="hero-copy">4 年跨领域经验（核电 + 声学），主导两款数据处理软件的商业化落地和 5 款 AI 产品从 0 到 1。声呐和信标两条产品线，全链路覆盖从硬件数据采集到软件报告输出。</p>
+    <div class="hero-actions"><a class="button primary" href="#projects">看 AI 项目</a><a class="button secondary" href="#products">看产品线</a></div>
+  </div>
+  <aside class="tech-scroll">
+    <div class="terminal-bar"><span></span><span></span><span></span><code>domain-ai-methodology.md</code></div>
+    <pre><code>role: AI 产品经理 / 技术型产品负责人
+product_lines:
+  声呐 -- NEO-SV / 分裂波束 / ARIS / EK80
+  信标 -- 超声波标记 / 自容式接收机
+method:
+  契约先行 · 知识约束 · 逐层验证 · 人机协同
+stack: Agent · RAG · Qwen-VL · YOLO · Python · C++
+eval: RMSE 0.050dB · mAP 0.889 · Top-3 94.38%</code></pre>
+  </aside>
+</section>
+
+<!-- ═══════════ METHODOLOGY ═══════════ -->
+<section class="section" id="methodology" style="padding:64px clamp(20px,5vw,76px); background:rgba(255,255,255,0.82);">
+  <div class="section-heading" style="margin-bottom:20px;">
+    <div><div class="section-kicker">Methodology</div><h2>核心方法论</h2></div>
+    <p>在 4 个完全不同场景中反复验证后提炼出的 4 条产品原则。知识约束是底层逻辑，契约、逐层验证和协同是其工程化落地手段。</p>
+  </div>
+
+  <div class="method-row">
+    <div class="method-item">
+      <div class="method-num">01</div>
+      <div class="method-text">
+        <div class="method-title">契约先行，约束落地</div>
+        <div class="method-desc">开发前锁定模块契约（输入 / 输出 / 参数 / 阈值），AI 在契约边界内执行，不凭感觉生成。</div>
+        <div class="method-proof">29 个 Skill 含公式、契约与验证阈值</div>
+      </div>
+    </div>
+    <div class="method-item">
+      <div class="method-num">02</div>
+      <div class="method-text">
+        <div class="method-title">知识结构化为约束层</div>
+        <div class="method-desc">专家经验沉淀为标准 Skill 和知识图谱，Agent 在约束下调度，不自由发挥。</div>
+        <div class="method-proof">声学知识库 100 术语 · 3,789 条描述</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="method-row">
+    <div class="method-item">
+      <div class="method-num">03</div>
+      <div class="method-text">
+        <div class="method-title">逐层验证 L1 – L3</div>
+        <div class="method-desc">格式契约 → 数值一致性 → 领域可用性，每层有明确阈值，不可跳过任何一层。</div>
+        <div class="method-proof">Sv RMSE = 0.050 dB（工程阈值 0.5 dB 的 1/10）</div>
+      </div>
+    </div>
+    <div class="method-item">
+      <div class="method-num">04</div>
+      <div class="method-text">
+        <div class="method-title">人机协同收敛</div>
+        <div class="method-desc">大模型辅助 + 人工校验 + 传统方法修正，逐层逼近可靠结果。</div>
+        <div class="method-proof">水母检测：计数精度 98.94%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PRODUCT LINES ═══════════ -->
+<section class="section" id="products" style="background:rgba(231,239,232,0.45);">
+  <div class="section-heading" style="margin-bottom:24px;">
+    <div><div class="section-kicker">Product Lines</div><h2>两条产品线</h2></div>
+    <p>公司硬件产品覆盖声呐和信标两大类。我的工作聚焦于<strong>对硬件采集数据的处理</strong>：从原始信号解析、算法模块开发、到软件产品交付和商业化落地。</p>
+  </div>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:18px;">
+    <div style="border:1px solid var(--line-strong); background:var(--card); padding:24px; box-shadow:0 6px 24px rgba(67,55,38,0.06);">
+      <div style="font-size:20px; font-weight:800; color:var(--green-deep); margin-bottom:8px; display:flex; align-items:center; gap:10px;">
+        <span style="display:inline-block; width:6px; height:24px; background:var(--green-deep); border-radius:2px;"></span>
+        声呐产品线 · 水下声学探测
+      </div>
+      <div style="font-size:12px; color:var(--muted); margin-bottom:14px;">NEO-SV 声呐 · 分裂波束鱼探仪 · ARIS 图像声呐 · 网兜声呐 · EK80</div>
+      <div style="font-size:13px; color:var(--body); line-height:1.7; margin-bottom:12px;">
+        以上均为硬件采集设备。我负责的是这些硬件产生数据的全链路处理：原始数据解析 → Sv/TS 计算 → 去噪 → 海底/海表检测 → 单体识别与鱼群结构分析 → NASC/EDSU 聚合 → 资源评估报告生成。<br><br>
+        <strong>软件产品：</strong>Ranos 声呐数据分析软件（独立交付）。<br>
+        <strong>商业化交付：</strong>已完成 5 年中西太平洋渔业资源量评估报告（甲方验收通过）。
+      </div>
+      <div style="display:flex; flex-wrap:wrap; gap:6px;">
+        <span class="line-tag">NEO-SV</span><span class="line-tag">分裂波束 NEOFV</span><span class="line-tag">ARIS</span><span class="line-tag">网兜 ECHONET</span><span class="line-tag">EK80</span><span class="line-tag">Ranos 软件</span>
+      </div>
+    </div>
+
+    <div style="border:1px solid var(--line-strong); background:var(--card); padding:24px; box-shadow:0 6px 24px rgba(67,55,38,0.06);">
+      <div style="font-size:20px; font-weight:800; color:var(--red-deep); margin-bottom:8px; display:flex; align-items:center; gap:10px;">
+        <span style="display:inline-block; width:6px; height:24px; background:var(--red-deep); border-radius:2px;"></span>
+        信标产品线 · 水下定位与遥测
+      </div>
+      <div style="font-size:12px; color:var(--muted); margin-bottom:14px;">超声波标记（Pinger）· 自容式接收机</div>
+      <div style="font-size:13px; color:var(--body); line-height:1.7; margin-bottom:12px;">
+        硬件负责发射和接收超声波信号。我负责的是信号的解码和定位处理：信号解码与深度计算 → 三级校时（参考信标+PPS+UTC）→ 多径干扰过滤 → TDOA 定位 → 多级降级策略 → 轨迹可视化与数据库管理。<br><br>
+        <strong>软件产品：</strong>Pinger 定位与轨迹可视化软件（独立交付）。<br>
+        <strong>商业化落地：</strong>黄河野外鱼类繁殖项目已投入使用，长江中华鲟产卵监测已签订后续合同。
+      </div>
+      <div style="display:flex; flex-wrap:wrap; gap:6px;">
+        <span class="line-tag red">超声波标记</span><span class="line-tag red">自容式接收机</span><span class="line-tag red">Pinger 定位软件</span><span class="line-tag red">TDOA</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ GROWTH JOURNEY ═══════════ -->
+<section class="section" id="journey">
+  <div class="section-heading"><div><div class="section-kicker">Growth Journey</div><h2>从工程执行到方法论构建</h2></div><p>三条成长线索：工作路径 → 认知升级 → 问题复盘。</p></div>
+
+  <div class="journey-timeline">
+    <div class="journey-phase"><div class="phase-marker"><span>2018</span></div>
+      <div class="phase-body"><div class="phase-title">本科基础期</div><div class="phase-subtitle">南京理工大学 · 智能科学与技术 · 4 篇 SCI/EI 论文 · 15 项专利及软著</div></div>
+    </div>
+    <div class="journey-phase"><div class="phase-marker"><span>2022</span></div>
+      <div class="phase-body">
+        <div class="phase-title">工程落地期 · 从执行者到项目负责人</div>
+        <div class="phase-subtitle">苏州热工研究院（中广核体系）· 产品研发工程师 · 2022.07 – 2024.07</div>
+        <div class="phase-detail" data-reveal>
+          <p class="reflection-label">环境</p><p>核电场景——高风险、强非标、容错为零。核心矛盾：人工经验依赖度高，但作业安全与效率要求严苛。</p>
+          <p class="reflection-label">关键成长</p>
+          <ul>
+            <li><strong>学会翻译业务语言</strong>：将"防腐蚀/防缠绕/长续航"等模糊需求转化为标准化技术指标，建立「业务→工程」映射规则。</li>
+            <li><strong>练出交付能力</strong>：统筹算法/机械/嵌入式/硬件/现场测试 6+ 角色，建立「功能→适应性→UAT」三层验证体系，项目验收通过率 100%。</li>
+            <li><strong>建立技术判断力</strong>：评估 eDNA 监测、声学探测等前沿技术成熟度，输出技术边界评估与 ROI 分析，支撑千万级项目立项。</li>
+          </ul>
+          <div style="margin-top:10px;border-top:1px solid var(--line);padding-top:10px;">
+            <p class="reflection-label">负责项目</p>
+            <ul>
+              <li><strong>海洋生物大数据分析</strong>（2022.07-2023.10）：运用 SPSS + Python 对核电厂周边海域温度/潮汐/海生物打捞数据进行建模，研究生物爆发规律。</li>
+              <li><strong>海生物拦截网兜探测装置</strong>（2023.01-2024.06，项目经理）：研发实时显示网兜承载量并报警的探测装置，市场调研→方案设计→专家评审→设备采购→现场测试全流程。</li>
+              <li><strong>环境 DNA 生物监测技术探索</strong>（2023.05-2024.05，项目负责人）：整体规划和技术调研，深入现场明确需求，制定采样计划，统计分析与报告/专利撰写。</li>
+              <li><strong>定制化水下机器人产品群</strong>（2023-2024）：高危水下作业替代率约 80%，维护效率提升 50%，样机调试周期缩短 30%。累计个人营收 690 万，团队 1.2 亿。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="journey-phase"><div class="phase-marker accent"><span>2025</span></div>
+      <div class="phase-body">
+        <div class="phase-title">AI 产品构建期 · 从 0 定义方法论</div>
+        <div class="phase-subtitle">苏州九鱼知海科技 · AI 产品经理 / 算法开发工程师 · 2025.02 – 至今</div>
+        <div class="phase-detail" data-reveal>
+          <p class="reflection-label">环境</p><p>声学 × AI 交叉领域，无成熟产品经验可借鉴，无行业标准可参考。独立定义产品方法、技术路线和商业模型。</p>
+          <p class="reflection-label">关键突破</p>
+          <ul>
+            <li><strong>形成核心方法论</strong>：契约先行、知识结构化为约束层、L1-L3 逐层验证、人机协同收敛。在 4 个完全不同场景中反复验证。</li>
+            <li><strong>跑通商业闭环</strong>：两款数据处理软件独立交付，已签后续商业合同。数据处理产品线占公司营收约 50%，技术封装为 SDK/API 标准化输出。</li>
+            <li><strong>从个体经验到可迁移体系</strong>：方法论开源为 github.com/Chouner/domain-ai-portfolio，10 个项目，中英双语，含 STAR 拆解和系统架构。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="journey-phase"><div class="phase-marker future"><span>Now</span></div>
+      <div class="phase-body"><div class="phase-title">方法论输出期 · 寻找更大场景</div><div class="phase-subtitle">目标：AI 产品经理 / 技术型产品负责人</div><div class="phase-detail" data-reveal><p>已在声学、生物识别、工业检测 3 个完全不同领域验证了方法论的可迁移性。希望将「领域知识约束 AI」的思路应用到更广泛的行业场景中——医疗、法律、金融、制造业——任何专家知识密集且容错低的领域。</p></div></div>
+    </div>
+  </div>
+
+  <!-- Cognitive upgrades -->
+  <div class="section-heading" style="margin-top:36px;"><div><div class="section-kicker">Cognitive Upgrades</div><h2>每个阶段，我意识到了什么问题</h2></div></div>
+  <div class="insight-cards">
+    <div class="insight-card" data-reveal><div class="insight-number">01</div><div class="insight-wrap"><div class="insight-title">「写完代码」和「交付产品」之间隔着一整条验证链</div><div class="insight-when">2022-2023 · 核电时期</div><div class="insight-problem"><b>当时的困境：</b>机器人控制系统功能都实现了，但现场部署频繁出问题——通信协议不兼容、操作流程反直觉、错误提示是英文的。用户用不起来。</div><div class="insight-solution"><b>解决的路径：</b>系统学习产品方法论，建立「功能→适应性→UAT」三层验证流程。验收标准在开工前就必须定义清楚。此后项目验收通过率从 70% 提升到 100%。</div></div></div>
+    <div class="insight-card" data-reveal><div class="insight-number">02</div><div class="insight-wrap"><div class="insight-title">传统图像方法在声学领域不一定好用</div><div class="insight-when">2025 · 声学 AI 早期</div><div class="insight-problem"><b>当时的困境：</b>YOLO/CLIP 在深海鱼类图像上 Top-1 只有 20%。分类学关键特征（发光器位置、尾柄腺体）纯视觉模型看不出来。ARIS 声呐图像边界模糊、纹理稀疏，直接在像素空间上做检测效果很差。</div><div class="insight-solution"><b>两条解决路径：</b>① 换领域方法——放弃纯视觉端到端，引入专家知识做约束（鱼类识别改用 CLIP 召回 + RAG 证据推理，Top-1 提升到 83%）；② 换维度看数据——将 ARIS 多波束三维数据 (帧 × ping × 深度) 压缩到二维 (ping × 深度)，从更多角度多重交叉验证，同时用大模型辅助标注解决标注成本问题。</div></div></div>
+    <div class="insight-card" data-reveal><div class="insight-number">03</div><div class="insight-wrap"><div class="insight-title">通用 AI 可以执行，但不能做决策——物理边界必须前置</div><div class="insight-when">2025 · 算法工程化</div><div class="insight-problem"><b>当时的困境：</b>让 AI 写声学算法代码，代码能跑但参数范围不对、FM 数据缺校准曲线时静默退化、增益因子少乘了 2。算出来的结果在软件层面看不出任何问题，但物理上是错的。</div><div class="insight-solution"><b>解决的路径：</b>放弃「让 AI 自由生成代码」的思路。为每个算法模块定义含公式、参数范围、物理约束、验证阈值和拒绝条件的 Skill Contract。AI 只负责在约束下调度模块，不接触公式内部。FM 缺曲线严格返回 NaN，所有降级决策写入 trust_level / report_flag。</div></div></div>
+  </div>
+</section>
+
+<!-- ═══════════ PROJECTS ═══════════ -->
+<section class="section" id="projects">
+  <div class="section-heading"><div><div class="section-kicker">Projects</div><h2>项目时间线 · 按产品线排列</h2></div><p>声呐和信标两条线并行推进。点击项目卡片查看完整的问题→判断→方案→验证→反思闭环。</p></div>
+
+  <div style="margin-bottom:32px;">
+    <div style="font-size:18px; font-weight:800; color:var(--green-deep); margin-bottom:16px; display:flex; align-items:center; gap:8px;"><span style="display:inline-block; width:4px; height:18px; background:var(--green-deep);"></span>声呐产品线 · 数据处理与 AI</div>
+    <div class="project-grid">
+      <article class="case-card" data-project="sonar-raw" data-reveal><div class="case-top"><span class="date">2025.04 – 2025.06</span><span class="case-type">数据处理</span></div><h3>Raw 数据到 Sv/TS 标准化计算</h3><p class="case-summary">建立声呐原始电压/强度数据到 Sv（体积后向散射强度）和 TS（目标强度）的标准化计算流程。含海底区域检测、阈值自适应、最大斜率变化点寻找。</p><div class="case-metrics"><span>Sv RMSE 0.050dB</span><span>海底检测</span><span>单体识别</span></div><button class="detail-trigger">查看过程 →</button></article>
+      <article class="case-card" data-project="aris" data-reveal><div class="case-top"><span class="date">2025.06 – 2026.05</span><span class="case-type">AI 检测 · 客户项目</span></div><h3>ARIS 声呐水母检测系统</h3><p class="case-summary">ARIS 声呐图像标注成本极高。设计大模型辅助标注循环，将多波束三维数据压缩到二维后交叉验证检测结果。已对外商业化销售。</p><div class="case-metrics"><span>mAP 0.889</span><span>FPS 5.6→26.7</span><span>86,342 帧</span><span>客户续签</span></div><button class="detail-trigger">查看过程 →</button></article>
+      <article class="case-card" data-project="ek80-skill" data-reveal><div class="case-top"><span class="date">2025.05 – 至今</span><span class="case-type">算法工程化 · 自研</span></div><h3>EK80 多频段 Skill 算法系统</h3><p class="case-summary">搭建并落地使用 Skill 体系，针对 18/38/70/120/200/333 kHz 多频段 EK80 数据进行针对性算法调用处理，输出标准化报告。</p><div class="case-metrics"><span>18 Skill 落地</span><span>14 SkillContract</span><span>C++ 桥接</span><span>Docker 部署</span></div><button class="detail-trigger">查看过程 →</button></article>
+      <article class="case-card" data-project="fishsurvey" data-reveal><div class="case-top"><span class="date">2025.06 – 2026.03</span><span class="case-type">商业化交付 · 自研</span></div><h3>中西太平洋渔业资源评估报告</h3><p class="case-summary">基于 EK80 和声呐调查数据，调用多频段算法模块完成 NASC 聚合、EDSU 分割和资源量估算。已完成 5 年中西太平洋数据分析和评估报告，交付甲方验收通过。</p><div class="case-metrics"><span>5 年数据</span><span>甲方验收</span><span>多频段分析</span></div><button class="detail-trigger">查看过程 →</button></article>
+      <article class="case-card" data-project="deepfish" data-reveal><div class="case-top"><span class="date">2025.11 – 2026.05</span><span class="case-type">AI 识别 · 自研</span></div><h3>深海鱼类识别 · CLIP + RAG</h3><p class="case-summary">小样本长尾分类。放弃端到端视觉方案，引入专家诊断知识做约束：CLIP 视觉召回 + RAG 证据推理。880 碎片文本聚合为 90 知识单元。</p><div class="case-metrics"><span>Top-1 83.15%</span><span>Top-3 94.38%</span><span>90 知识单元</span></div><button class="detail-trigger">查看过程 →</button></article>
+      <article class="case-card" data-project="qa-agent" data-reveal><div class="case-top"><span class="date">2025.02 – 2025.08</span><span class="case-type">AI 客服 · 自研</span></div><h3>声学问答 Agent 客服</h3><p class="case-summary">教师-学生策略：大模型做教师生成知识，Qwen-7B 做学生微调部署。100 核心术语扩展至 3,789 条知识描述，接入微信公众号。</p><div class="case-metrics"><span>3,789 条目</span><span>218 用户</span><span>转化 5+ 单</span></div><button class="detail-trigger">查看过程 →</button></article>
+    </div>
+  </div>
+
+  <div>
+    <div style="font-size:18px; font-weight:800; color:var(--red-deep); margin-bottom:16px; display:flex; align-items:center; gap:8px;"><span style="display:inline-block; width:4px; height:18px; background:var(--red-deep);"></span>信标产品线 · 定位算法与软件</div>
+    <div class="project-grid">
+      <article class="case-card" data-project="pinger-decode" data-reveal><div class="case-top"><span class="date">2025.03 – 2025.05</span><span class="case-type">信号处理</span></div><h3>Pinger 信号解码与深度计算</h3><p class="case-summary">60kHz 超声波标记信号解码：双脉冲提取深度信息，code1/code2 标识符识别，脉冲周期约束下的振铃过滤和码间干扰处理。</p><div class="case-metrics"><span>双脉冲解码</span><span>深度公式映射</span><span>脉冲周期约束</span></div><button class="detail-trigger">查看过程 →</button></article>
+      <article class="case-card" data-project="pinger-sim" data-reveal><div class="case-top"><span class="date">2025.05</span><span class="case-type">仿真平台</span></div><h3>Pinger 仿真系统</h3><p class="case-summary">可配置的水下定位仿真：地图选点、接收机参数配置、声波传播距离限制、随机丢包模拟。为后续定位算法开发提供可控的测试环境。</p><div class="case-metrics"><span>地图选点</span><span>丢包模拟</span><span>传播距离限制</span></div><button class="detail-trigger">查看过程 →</button></article>
+      <article class="case-card" data-project="pinger-position" data-reveal><div class="case-top"><span class="date">2025.05 – 2025.08</span><span class="case-type">定位算法</span></div><h3>水下定位主系统 ProcessPingerPosition</h3><p class="case-summary">DDD 分层架构。三级校时方案（参考信标+PPS+UTC），TDOA 双曲线定位，三点/四点球面交会，五级降级策略。UI/Service 双模式运行。</p><div class="case-metrics"><span>4,720 脉冲组</span><span>25,064 TDOA 对</span><span>21,292 深度值</span></div><button class="detail-trigger">查看过程 →</button></article>
+      <article class="case-card" data-project="sturgeon-phase1" data-reveal><div class="case-top"><span class="date">2025.09 – 2025.12</span><span class="case-type">实测项目 · 阶段一</span></div><h3>中华鲟监测 · 浅水多径数据筛选与定位</h3><p class="case-summary">宜昌/网鱼河实测数据。浅水环境下多径效应导致大量伪脉冲，基于分位自适应阈值+最早到达优先原则筛选有效信号。信标对选择，双曲线定位。</p><div class="case-metrics"><span>浅水多径过滤</span><span>自适应阈值</span><span>双曲线定位</span></div><button class="detail-trigger">查看过程 →</button></article>
+      <article class="case-card" data-project="sturgeon-phase2" data-reveal><div class="case-top"><span class="date">2025.12 – 2026.03</span><span class="case-type">商业化落地 · 阶段二</span></div><h3>中华鲟监测 · 软件商业化与推广</h3><p class="case-summary">将定位算法封装为独立软件产品。已在黄河野外鱼类繁殖项目中投入使用，长江中华鲟后续产卵监测已签订商业合同。含轨迹可视化、数据库管理和实时监控面板。</p><div class="case-metrics"><span>黄河项目落地</span><span>长江合同签订</span><span>实时监控面板</span></div><button class="detail-trigger">查看过程 →</button></article>
+      <article class="case-card" data-project="yaps" data-reveal><div class="case-top"><span class="date">2025.06 – 2025.10</span><span class="case-type">算法集成</span></div><h3>YAPS 轨迹平滑算法集成</h3><p class="case-summary">集成 R 语言 YAPS（Yet Another Positioning Solver）算法包。Python 主流程通过 subprocess 调用 R 环境，完成接收机数组配置、时钟对齐和轨迹后处理平滑。</p><div class="case-metrics"><span>Python/R 集成</span><span>时钟对齐</span><span>轨迹平滑</span></div><button class="detail-trigger">查看过程 →</button></article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PROJECT DETAIL OVERLAY ═══════════ -->
+<div class="overlay-backdrop" id="overlay-backdrop"></div>
+<article class="detail-panel" id="detail-panel">
+  <button class="detail-close" id="detail-close">&times;</button>
+  <div class="detail-inner" id="detail-inner"></div>
+</article>
+
+<!-- ═══════════ REFLECTIONS ═══════════ -->
+<section class="section" id="reflections">
+  <div class="section-heading"><div><div class="section-kicker">Reflections</div><h2>项目复盘</h2></div><p>每个项目都遇到过的核心困境，以及我的判断和最终选择。</p></div>
+  <div class="reflection-list">
+    <div class="reflection-item" data-reveal>
+      <div class="reflection-header"><span class="ref-tag">Agent+Skill</span><span class="ref-date">2025.06</span></div>
+      <div class="ref-problem"><b>问题：</b>AI 写的声学算法代码能跑但物理上不可信。参数范围错、FM 缺曲线时静默退化、增益因子少乘了 2。</div>
+      <div class="ref-realize"><b>意识到：</b>通用 AI 可以执行任务，但不能做决策——它不知道该拒绝什么。物理边界必须在 AI 介入之前就定义清楚。</div>
+      <div class="ref-solve"><b>解法：</b>放弃让 AI 自由生成代码。为每个算法模块定义了含公式、参数范围、物理约束、验证阈值和拒绝条件的 Skill Contract。AI 只负责在约束下调度模块。FM 缺曲线严格返回 NaN，所有降级决策写入 trust_level / report_flag。</div>
+    </div>
+    <div class="reflection-item" data-reveal>
+      <div class="reflection-header"><span class="ref-tag">鱼类识别 / ARIS</span><span class="ref-date">2025.10 – 12</span></div>
+      <div class="ref-problem"><b>问题：</b>传统图像处理方法在声学领域效果差。深海鱼类图像上 CLIP Top-1 只有 20%，ARIS 声呐图像像素空间直接做检测精度不达标。</div>
+      <div class="ref-realize"><b>意识到：</b>声学图像和光学图像是两种不同的信息载体。在像素上硬做检测，不如换一个角度——要么引入领域知识做推理约束，要么换一个维度重新组织数据。</div>
+      <div class="ref-solve"><b>两条路径：</b>① 换领域方法——鱼类识别改用 CLIP 视觉召回 + RAG 证据推理，用分类学诊断标准做约束，Top-1 从 20% 提升到 83%；② 换维度看数据——ARIS 多波束三维数据（帧 × ping × 深度）压缩到二维（ping × 深度），从不同切面交叉验证，同时用大模型辅助标注降低标注成本。最终 mAP 0.889，计数精度 98.94%。</div>
+    </div>
+    <div class="reflection-item" data-reveal>
+      <div class="reflection-header"><span class="ref-tag">核电机器人</span><span class="ref-date">2023.08</span></div>
+      <div class="ref-problem"><b>问题：</b>机器人功能都实现了，但现场部署频繁出问题——通信协议不兼容、操作流程反直觉、错误提示是英文的。用户用不起来。</div>
+      <div class="ref-realize"><b>意识到：</b>「写完代码」和「交付产品」之间隔着一整条验证链。工程师视角的「完成了」不等于用户视角的「能用」。验收标准必须在开工前定义。</div>
+      <div class="ref-solve"><b>解法：</b>建立「功能验证→环境适应性测试→用户验收测试」三层验证流程。每层有独立检测清单和通过阈值。此后项目验收通过率从 70% 提升到 100%。这套方法论后来被带到了 AI 产品的 L1-L3 评估体系设计中。</div>
+    </div>
+    <div class="reflection-item" data-reveal>
+      <div class="reflection-header"><span class="ref-tag">水母检测</span><span class="ref-date">2025.06 – 2026.05</span></div>
+      <div class="ref-problem"><b>问题：</b>ARIS 声呐图像边界模糊，人工标注一帧需要 2-3 分钟，86,000 帧完全不现实。直接训练 YOLO 数据不够。</div>
+      <div class="ref-realize"><b>意识到：</b>这是一个成本结构问题。如果标注成本降不下来，整个项目没有经济可行性。LLM 不能完美标注声呐图像，但它的输出作为初筛可以大幅降低人工矫正的工作量。</div>
+      <div class="ref-solve"><b>解法：</b>设计「LLM 预标注→人工矫正→模型训练→模型预测→人工抽检」五步循环。每轮循环模型精度提升，人工工作量递减。传统 CV 做后处理消除噪声误检。最终 mAP 0.889，FPS 从 5.6 提升到 26.7。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ RESUME ═══════════ -->
+<section class="section resume" id="resume">
+  <div class="section-kicker">Resume</div><h2>工作经历</h2>
+  <div class="resume-layout">
+    <article class="resume-block"><time>2025.02 – 至今</time><h3>苏州九鱼知海科技</h3><p class="role">AI 产品经理 / 算法开发工程师</p><p>主导两款数据处理软件商业化落地（声呐 + 信标），5 款 AI 产品 0→1。声呐和信标两条产品线全链路覆盖。构建「领域知识约束 AI」产品方法论。</p></article>
+    <article class="resume-block"><time>2022.07 – 2024.07</time><h3>苏州热工研究院（中广核体系）</h3><p class="role">产品研发工程师</p><p>负责核电冷源安全和水下机器人产品研发。完成需求调研、方案设计、研发测试、专家评审和客户交付全流程。项目累计个人营收 690 万，团队总营收 1.2 亿。</p></article>
+    <article class="resume-block education"><time>2018.09 – 2022.06</time><h3>南京理工大学</h3><p class="role">智能科学与技术 · 本科</p></article>
+  </div>
+  <div class="proof-strip">
+    <div><strong>4</strong><span>SCI/EI 论文</span></div><div><strong>15</strong><span>专利 / 软著</span></div><div><strong>18</strong><span>Skill 模块落地</span></div><div><strong>87M</strong><span>样本验证</span></div><div><strong>5</strong><span>AI 产品 0→1</span></div>
+  </div>
+</section>
+
+<!-- ═══════════ CONTACT ═══════════ -->
+<section class="section contact" id="contact">
+  <div><div class="section-kicker">Contact</div><h2>联系方式</h2><p>AI 产品经理 · 技术型产品经理 · Agent / RAG 产品化 · 行业 AI 解决方案<br>github.com/Chouner/domain-ai-portfolio</p></div>
+  <div class="contact-panel"><a href="mailto:hhtian2025@126.com">hhtian2025@126.com</a><a href="tel:13913038490">13913038490</a><span>南京 / 苏州</span></div>
+</section>
+
+</main>
+<footer class="site-footer"><span>田慧慧 · AI 产品化 · 领域知识约束 AI</span><a href="#top">回到顶部</a></footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
