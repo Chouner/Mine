@@ -29,7 +29,7 @@
   <div class="hero-content">
     <p class="eyebrow">Domain-Constrained AI · Product Methodology · Sonar &amp; Beacon</p>
     <h1>把领域专家知识<br>转化为可验证的 AI 系统</h1>
-    <p class="hero-copy">4 年跨领域经验（核电 + 声学），主导两款数据处理软件的商业化落地和 5 款 AI 产品从 0 到 1。声呐和信标两条产品线，全链路覆盖从硬件数据采集到软件报告输出。</p>
+    <p class="hero-copy">4 年跨领域经验（核电 + 声学 + 工业检测），独立交付算法核心模块，协同软件部门支撑两款数据处理软件商业化落地和 5 款 AI 产品从 0 到 1。声呐和信标两条产品线，全链路覆盖从硬件数据采集到软件报告输出。</p>
     <div class="hero-actions"><a class="button primary" href="#projects">看 AI 项目</a><a class="button secondary" href="#products">看产品线</a></div>
   </div>
   <aside class="tech-scroll">
@@ -107,7 +107,7 @@ eval: RMSE 0.050dB · mAP 0.889 · Top-3 94.38%</code></pre>
       <div style="font-size:12px; color:var(--muted); margin-bottom:14px;">NEO-SV 声呐 · 分裂波束鱼探仪 · ARIS 图像声呐 · 网兜声呐 · EK80</div>
       <div style="font-size:13px; color:var(--body); line-height:1.7; margin-bottom:12px;">
         以上均为硬件采集设备。我负责的是这些硬件产生数据的全链路处理：原始数据解析 → Sv/TS 计算 → 去噪 → 海底/海表检测 → 单体识别与鱼群结构分析 → NASC/EDSU 聚合 → 资源评估报告生成。<br><br>
-        <strong>软件产品：</strong>Ranos 声呐数据分析软件（独立交付）。<br>
+        <strong>软件产品：</strong>Ranos 声呐数据分析软件（我负责算法核心模块交付，协同软件部门完成 API 定义与接入测试）。<br>
         <strong>商业化交付：</strong>已完成 5 年中西太平洋渔业资源量评估报告（甲方验收通过）。
       </div>
       <div style="display:flex; flex-wrap:wrap; gap:6px;">
@@ -123,7 +123,7 @@ eval: RMSE 0.050dB · mAP 0.889 · Top-3 94.38%</code></pre>
       <div style="font-size:12px; color:var(--muted); margin-bottom:14px;">超声波标记（Pinger）· 自容式接收机</div>
       <div style="font-size:13px; color:var(--body); line-height:1.7; margin-bottom:12px;">
         硬件负责发射和接收超声波信号。我负责的是信号的解码和定位处理：信号解码与深度计算 → 三级校时（参考信标+PPS+UTC）→ 多径干扰过滤 → TDOA 定位 → 多级降级策略 → 轨迹可视化与数据库管理。<br><br>
-        <strong>软件产品：</strong>Pinger 定位与轨迹可视化软件（独立交付）。<br>
+        <strong>软件产品：</strong>Pinger 定位与轨迹可视化软件（我负责信号解码与定位算法模块交付，协同软件部门完成 API 制定与接入测试）。<br>
         <strong>商业化落地：</strong>黄河野外鱼类繁殖项目已投入使用，长江中华鲟产卵监测已签订后续合同。
       </div>
       <div style="display:flex; flex-wrap:wrap; gap:6px;">
@@ -139,7 +139,27 @@ eval: RMSE 0.050dB · mAP 0.889 · Top-3 94.38%</code></pre>
 
   <div class="journey-timeline">
     <div class="journey-phase"><div class="phase-marker"><span>2018</span></div>
-      <div class="phase-body"><div class="phase-title">本科基础期</div><div class="phase-subtitle">南京理工大学 · 智能科学与技术 · 4 篇 SCI/EI 论文 · 15 项专利及软著</div></div>
+      <div class="phase-body"><div class="phase-title">本科基础期</div><div class="phase-subtitle">南京理工大学 · 智能科学与技术 · 算法与系统开发入门</div></div>
+    </div>
+    <div class="journey-phase"><div class="phase-marker accent"><span>2021</span></div>
+      <div class="phase-body">
+        <div class="phase-title">产业启蒙期 · 首次接触企业运作</div>
+        <div class="phase-subtitle">友达光电 · 图像算法实习生 · 2021.06 – 2021.08</div>
+        <div class="phase-detail" data-reveal>
+          <p class="reflection-label">环境</p><p>液晶面板制造场景——生产线 7×24 运转，缺陷检测依赖人工目检，效率低、一致性差。目标是用图像算法替代人工，实现产线自动化质检。</p>
+          <p class="reflection-label">关键工作</p>
+          <ul>
+            <li><strong>缺陷检测算法开发</strong>：使用传统图像处理方法（边缘检测、模板匹配、形态学分析）对面板缺陷（划痕、污点、气泡）进行自动识别和分类。</li>
+            <li><strong>Linux 开发环境入门</strong>：第一次在 Linux 环境下进行开发和调试，掌握了命令行操作、Shell 脚本、环境配置等基础技能。</li>
+            <li><strong>从理论到实践的跨越</strong>：第一次把课本上的算法用到实际产线数据上——实验室完美运行的算法在真实噪声、光照变化下频繁失效，学会了「鲁棒性比精度更重要」。</li>
+          </ul>
+          <p class="reflection-label">认知收获</p>
+          <ul>
+            <li><strong>第一次理解企业运作</strong>：需求来自产线、方案要过评审、代码要写文档、交付要过验收——学校里的「写完代码就行」在企业里只是一个环节。</li>
+            <li><strong>第一次感受跨角色协作</strong>：算法不是独立存在的，需要和硬件工程师确认相机参数、和产线工程师确认检测标准、和IT确认部署环境。</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="journey-phase"><div class="phase-marker"><span>2022</span></div>
       <div class="phase-body">
@@ -162,6 +182,13 @@ eval: RMSE 0.050dB · mAP 0.889 · Top-3 94.38%</code></pre>
               <li><strong>定制化水下机器人产品群</strong>（2023-2024）：高危水下作业替代率约 80%，维护效率提升 50%，样机调试周期缩短 30%。累计个人营收 690 万，团队 1.2 亿。</li>
             </ul>
           </div>
+          <div style="margin-top:10px;border-top:1px solid var(--line);padding-top:10px;">
+            <p class="reflection-label">论文与专利成果（此阶段产出）</p>
+            <ul>
+              <li><strong>4 篇 SCI/EI 论文</strong>：IEEE PRML 2023、ACM ICPCSEE 2024、IEEE ICMA 2023 国际会议论文；Nuclear Engineering and Technology 国际期刊论文（2025）。研究方向覆盖冷源安全信息系统、拦截网优化设计、核电厂巡检与清理机器人。</li>
+              <li><strong>15 项专利及软著</strong>：8 项已授权（含 5 实用新型授权 + 2 发明专利受理 + 1 软著），另有 7 项发明专利受理中。涵盖冷源拦截网检测、海生物监测浮标、水下机器人传动、超声波定位、水下破碎清淤等核心技术方向。</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -174,7 +201,7 @@ eval: RMSE 0.050dB · mAP 0.889 · Top-3 94.38%</code></pre>
           <p class="reflection-label">关键突破</p>
           <ul>
             <li><strong>形成核心方法论</strong>：契约先行、知识结构化为约束层、L1-L3 逐层验证、人机协同收敛。在 4 个完全不同场景中反复验证。</li>
-            <li><strong>跑通商业闭环</strong>：两款数据处理软件独立交付，已签后续商业合同。数据处理产品线占公司营收约 50%，技术封装为 SDK/API 标准化输出。</li>
+            <li><strong>跑通商业闭环</strong>：独立交付算法核心模块，协同软件部门完成 API 制定与接入测试，支撑两款数据处理软件上市。数据处理产品线占公司营收约 50%。</li>
             <li><strong>从个体经验到可迁移体系</strong>：方法论开源为 github.com/Chouner/domain-ai-portfolio，10 个项目，中英双语，含 STAR 拆解和系统架构。</li>
           </ul>
         </div>
@@ -265,8 +292,9 @@ eval: RMSE 0.050dB · mAP 0.889 · Top-3 94.38%</code></pre>
 <section class="section resume" id="resume">
   <div class="section-kicker">Resume</div><h2>工作经历</h2>
   <div class="resume-layout">
-    <article class="resume-block"><time>2025.02 – 至今</time><h3>苏州九鱼知海科技</h3><p class="role">AI 产品经理 / 算法开发工程师</p><p>主导两款数据处理软件商业化落地（声呐 + 信标），5 款 AI 产品 0→1。声呐和信标两条产品线全链路覆盖。构建「领域知识约束 AI」产品方法论。</p></article>
-    <article class="resume-block"><time>2022.07 – 2024.07</time><h3>苏州热工研究院（中广核体系）</h3><p class="role">产品研发工程师</p><p>负责核电冷源安全和水下机器人产品研发。完成需求调研、方案设计、研发测试、专家评审和客户交付全流程。项目累计个人营收 690 万，团队总营收 1.2 亿。</p></article>
+    <article class="resume-block"><time>2025.02 – 至今</time><h3>苏州九鱼知海科技</h3><p class="role">AI 产品经理 / 算法开发工程师</p><p>独立交付算法核心模块，协同软件部门完成 API 制定与接入测试，支撑声呐和信标两款数据处理软件商业化落地。5 款 AI 产品 0→1。构建「领域知识约束 AI」产品方法论。</p></article>
+    <article class="resume-block"><time>2022.07 – 2024.07</time><h3>苏州热工研究院（中广核体系）</h3><p class="role">产品研发工程师</p><p>负责核电冷源安全和水下机器人产品研发。完成需求调研、方案设计、研发测试、专家评审和客户交付全流程。期间发表 4 篇 SCI/EI 论文，申请 15 项专利及软著。项目累计个人营收 690 万，团队总营收 1.2 亿。</p></article>
+    <article class="resume-block"><time>2021.06 – 2021.08</time><h3>友达光电</h3><p class="role">图像算法实习生</p><p>使用传统图像处理方法进行液晶面板缺陷检测（划痕、污点、气泡），首次接触 Linux 开发环境和产线级项目部署流程。</p></article>
     <article class="resume-block education"><time>2018.09 – 2022.06</time><h3>南京理工大学</h3><p class="role">智能科学与技术 · 本科</p></article>
   </div>
   <div class="proof-strip">
